@@ -42,6 +42,15 @@ fun main(args : Array<String>){
     println(arrayList)
     for (item in arrayList) println(item)
 
+    /*
+    MAP : Verileri anahtar değer ikilileri şekilinde tutar.
+    Immutable - sabit eleman
+     */
+
+    var map = mapOf<Int, String>()
+    var map2 = mapOf<Int,String>(12 to "isil",45 to "sevgi",67 to "o")
+    for (anahtar in map2.keys) println("Anahtar : $anahtar Değer: ${map2[anahtar]}")
+
 
 }
 
