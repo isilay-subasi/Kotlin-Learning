@@ -1,2 +1,3 @@
 rootProject.name = "KotlinLearning"
 include ':app'
+include ':deneme'
