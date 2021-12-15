@@ -79,6 +79,13 @@ class MainActivity : AppCompatActivity() {
 
        println(myClass.info)
         println(myClass.getMoreInfo())
+
+        var variables = Variables(this)
+        variables.name = "sevgi"
+
+
+
+
     }
 
 
