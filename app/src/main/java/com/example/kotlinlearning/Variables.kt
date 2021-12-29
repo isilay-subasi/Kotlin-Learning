@@ -20,7 +20,7 @@ class Variables(val context: Context) {
     var name = "isil"
     val age = 26
 
-    val myNum = 5             // Int
+    var myNum = 5             // Int
     val myDoubleNum = 5.99    // Double
     val myLetter = 'D'        // Char
     val myBoolean = true      // Boolean

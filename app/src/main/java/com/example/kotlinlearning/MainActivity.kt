@@ -19,15 +19,21 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        lateinit var button : Button
+
+        val deneme = NullSafety()
+        deneme.nullSafety()
 
 
 
 
-
-        sonuc=sayi+sayi2
+    /*
+      lateinit var button : Button
+            sonuc=sayi+sayi2
         button=findViewById(R.id.button)
         button.setOnClickListener(listener)
+     */
+
+
 
         /*
                button.setOnClickListener(){
@@ -82,7 +88,7 @@ class MainActivity : AppCompatActivity() {
 
         var variables = Variables(this)
         variables.name = "sevgi"
-
+        variables.myNum = variables.myDoubleNum.toInt()    
 
 
 
